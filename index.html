@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Playlist Builder</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Music Playlist Builder</h1>
+
+    <div class="playlist-form">
+      <input type="text" id="songTitle" placeholder="Song Title" required />
+      <input type="text" id="songArtist" placeholder="Artist Name" required />
+      <button id="addSongBtn">Add Song</button>
+    </div>
+
+    <div class="playlist-controls">
+      <button id="sortPlaylistBtn">Sort Playlist</button>
+      <button id="clearPlaylistBtn">Clear Playlist</button>
+    </div>
+
+    <div id="playlistContainer">
+      <ul id="playlist">
+        <!-- Playlist items will appear here -->
+      </ul>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
